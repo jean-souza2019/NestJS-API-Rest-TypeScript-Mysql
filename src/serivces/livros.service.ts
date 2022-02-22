@@ -5,9 +5,9 @@ import { Livros } from '../models/livros.model';
 export class LivrosService {
 
     livros: Livros[] = [
-        new Livros("LIV01", "Livro TDD e BDD na Prática", 29.90),
-        new Livros("LIV02", "Clean Code", 99.90),
-        new Livros("LIV03", "Nest JS - Pratica", 29.90)
+        // new Livros("LIV01", "Livro TDD e BDD na Prática", 29.90),
+        // new Livros("LIV02", "Clean Code", 99.90),
+        // new Livros("LIV03", "Nest JS - Pratica", 29.90)
     ];
 
     obterTodos(): Livros[] {
